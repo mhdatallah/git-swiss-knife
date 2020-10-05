@@ -30,3 +30,10 @@ Prints out a tree graph of your repository, including all local and remote branc
 ```
 ./scripts/git-log.sh
 ```
+
+## git-delete-local
+
+Delete all the local branches. This command does not delete any branches on `origin`. To execute, run the following command:
+```
+./scripts/git-delete-local.sh
+```
